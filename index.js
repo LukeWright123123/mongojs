@@ -20,7 +20,8 @@ module.exports = function (connString, cols, options) {
       }
     }
 
-    return new Proxy === undefined ? new Proxy({}, handler) : new Proxy({}, handler)
+    //return new Proxy === undefined ? new Proxy({}, handler) : new Proxy({}, handler)
+    return new Proxy({}, handler) 
   }
 
   return db
